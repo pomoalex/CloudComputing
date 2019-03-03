@@ -1,0 +1,22 @@
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a class="nav-link active" href="#" (click)="get_ip()">Get IP adress</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link active" href="#" (click)="get_details()"
+        >Get location details</a
+      >
+    </li>
+    <li class="nav-item">
+      <a class="nav-link active" href="#" (click)="get_time()">Get date & time</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link active" href="#" (click)="get_places()">Get nearby places</a>
+    </li>
+  </ul>
+</nav>
+
+<div class="content">
+  <pre>{{ text }}</pre>
+</div>
